@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>ANNIVERSAIRE</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>
+          Pour trouver tes cadeaux, tu vas devoir te creuser les méninges et un
+          peu travailler ta patience...
+        </h1>
+        <p>
+          Pour ce faire, je vais te donner 4 énigmes, qui dévoilent
+          respectivement, un lieu/endroit de la maison. Dans chaque lieu tu
+          trouveras un code à renseigner sur ce site qui te permettront
+          d'accéder à l'énigme suivante.
+        </p>
+        <h3>
+          WARNING : AUCUNE AIDE N'EST TOLÉRÉ, sous peine de voir Philippe jouer
+          de la guitare non-stop pendant une journée.
+        </h3>
+        <button class="btn" id="start">Commencer</button>
+      </div>
+    </header>
+
+    <section class="enigme-container" id="one">
+      <div class="title">
+        <h2>Première énigme</h2>
+        <p>Pour démarrer voici un rébus qui dévoile le premier lieu :</p>
+      </div>
+      <div class="content">
+        <ul>
+          <li><img src="./assets/img/lac.jpeg" alt="" /></li>
+          <li><img src="./assets/img/k.jpg" alt="" /></li>
+          <li><img src="./assets/img/bas.jpg" alt="" /></li>
+          <li><img src="./assets/img/noeud.jpg" alt="" /></li>
+          <li><img src="./assets/img/eau.webp" alt="" /></li>
+          <li><img src="./assets/img/F.jpg" alt="" /></li>
+          <li><img src="./assets/img/on.jpg" alt="" /></li>
+          <li><img src="./assets/img/dujardin.jpg" alt="" /></li>
+        </ul>
+      </div>
+      <div class="next">
+        <h4>Code pour accéder à l'énigme suivante :</h4>
+        <input type="text" id="input1" />
+        <button class="btn" id="next1">Suivant</button>
+      </div>
+    </section>
+
+    <section class="enigme-container" id="two">
+      <div class="title">
+        <h2>Deuxième énigme</h2>
+        <p>
+          Maintenant nous allons faire parler tes talents de mathématicienne.
+          Résoud cette équation et remplace x dans la phrase en dessous, pour
+          dévoiler l'incide du lieu.
+        </p>
+      </div>
+      <div class="content">
+        <img src="./assets/img/équation.png" alt="" /><br />
+        <span>Le "x" y est bien gardé.</span>
+      </div>
+      <div class="next">
+        <h4>Code pour accéder à l'énigme suivante :</h4>
+        <input type="text" id="input2" />
+        <button class="btn" id="next2">Suivant</button>
+      </div>
+    </section>
+
+    <section class="enigme-container" id="three">
+      <div class="title">
+        <h2>Troisième énigme</h2>
+        <p>
+          On va passer sur quelque chose de plus facile (ou pas), une devinette,
+          qui va donner un indice sur l'endroit.
+        </p>
+      </div>
+      <div class="content">
+        <p>Régulièrement source d'énervement contre moi,</p>
+        <p>Autrefois tu as débuté,</p>
+        <p>Fondamentalement, le petit jaune est essentiel,</p>
+        <p>A présent, je suis hebdomadaire.</p>
+      </div>
+      <div class="next">
+        <h4>Code pour accéder à l'énigme suivante :</h4>
+        <input type="text" id="input3" />
+        <button class="btn" id="next3">Suivant</button>
+      </div>
+    </section>
+
+    <section class="enigme-container" id="four">
+      <div class="title">
+        <h2>Quatrième et dernière énigme</h2>
+        <p>Maitenant une petite devinette (vraiment) simple.</p>
+      </div>
+      <div class="content">
+        <p>
+          Indispensable de la sieste, même Toupie en bénéficie, pour passer de
+          la fraicheur à la chaleur.
+        </p>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
